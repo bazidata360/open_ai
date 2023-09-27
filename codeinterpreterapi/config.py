@@ -7,7 +7,7 @@ from langchain.schema import SystemMessage
 from codeinterpreterapi.prompts import code_interpreter_system_message
 
 # .env file
-load_dotenv(dotenv_path="./.env")
+load_dotenv(dotenv_path="./.env.example")
 
 
 class CodeInterpreterAPISettings(BaseSettings):
